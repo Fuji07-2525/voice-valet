@@ -41,7 +41,7 @@ Voice Valetでは次の機能を提供しています。
 ## Voice Valet の使い方
 
 
-Voice Valetの基本的な使い方の説明を行います。
+Voice Valetを導入して頂けた方の為に、Voice Valetの基本的な使い方の説明を行います。
 
 Aviutl2の左上にある「表示」から「Voice Valet」を選択してください。すると、最初にこのような画面が表示されます。
 
