@@ -43,7 +43,7 @@ Voice Valetでは次の機能を提供しています。
 
 Voice Valetを導入して頂けた方の為に、Voice Valetの基本的な使い方の説明を行います。
 
-Aviutl2の左上にある「表示」から「Voice Valet」を選択してください。すると、最初にこのような画面が表示されます。
+導入が完了しましたら、まず最小にAviutl2の左上にある「表示」から「Voice Valet」を選択してください。すると、最初にこのような画面が表示されます。
 
 <img width="785" height="528" alt="image" src="https://github.com/user-attachments/assets/2ad983e9-dafb-42b1-b7b1-425f61168d48" />
 
