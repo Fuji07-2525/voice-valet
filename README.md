@@ -48,9 +48,13 @@ Voice Valetの基本的な使い方の説明を行います。
 
 ![Voice Valet最初のページ](https://github.com/user-attachments/assets/2ad983e9-dafb-42b1-b7b1-425f61168d48) 
 
+<br>
+
 このままだと使いにくいと思うので、プラグインを右クリックし、「ウィンドウ配置」→「ウィンドウ分離」を選択しておくと見やすい形で表示してくれます。
 
 ![ウィンドウ分離](https://github.com/user-attachments/assets/3090410a-0e14-4e10-b9fe-2d3fb535a58b)
+
+<br>
 
 なお **このプラグインは閉じていても作動してくれます** そのため、基本的には非表示で設定をする際にのみ表示する。という運用が良いと思います。
 
@@ -137,10 +141,13 @@ voicevoxを例にしましたが、このプラグインでは各音声合成ソ
 
 ![設定ボタンを押す](https://github.com/user-attachments/assets/4daf6fc9-3541-4f25-b2d0-a7248baba356)
 
+<br>
+
 「プリセット」タブを開き、「現在の状態をプリセットとして保存」を押します。
 
 ![現在の状態をプリセットとして保存](https://github.com/user-attachments/assets/79001ea4-286f-4b10-8a9e-3782d7e2a425)
 
+<br>
 
 すると
 
@@ -152,6 +159,8 @@ voicevoxを例にしましたが、このプラグインでは各音声合成ソ
 
 ![自動取得](https://github.com/user-attachments/assets/47235e30-f91f-4a61-bc19-5cda08f7bbb3)
 
+<br>
+
 このまま「保存」を押して頂くと現在のプロジェクト状態をプリセットとして保存することが出来ます。
 
 ![プリセット保存](https://github.com/user-attachments/assets/6ca8f67e-2253-429c-a37a-deaa267583b8)
@@ -159,6 +168,8 @@ voicevoxを例にしましたが、このプラグインでは各音声合成ソ
 ![プリセット一覧](https://github.com/user-attachments/assets/866733c4-bf1a-4e7e-accc-c3793ee69e55)
 
 これでプリセットとして保存が完了しました。
+
+<br>
 
 ### 2. プリセットを適用させる
 
@@ -168,11 +179,15 @@ voicevoxを例にしましたが、このプラグインでは各音声合成ソ
 
 ![プロジェクトファイルを開く](https://github.com/user-attachments/assets/ec9f8426-6a27-42a8-b9cd-08d2aa9472d5)
 
+<br>
+
 するとこのようなダイアログが表示されます。
 
 ![ダイアログ表示](https://github.com/user-attachments/assets/26bce9f9-8dc5-408b-a961-de76fd0ec0da)
 
 こちらをOKを押します。
+
+<br>
 
 ![プリセット適用](https://github.com/user-attachments/assets/64817303-6a20-4eec-9c92-be0fc4a42d38)
 
@@ -203,17 +218,27 @@ voicevoxを例にしましたが、このプラグインでは各音声合成ソ
 
 Voice Valet側には、このVoice Drop側で行う必要がある「ルール設定」の簡略化を目的とした機能を用意しています。
 
+<br>
+
 「設定」→「Voice Drop」を選択します。
 
 ![Voice Dropタブ](https://github.com/user-attachments/assets/b65315f5-4d2a-4566-9940-967a25be7963)
+
+<br>
 
 「起動中のソフトから読み込む」を押します。すると現在立ち上げている音声合成ソフトを選択することが出来ます。
 
 ![起動中のソフトから読み込む](https://github.com/user-attachments/assets/12a55d8f-38be-4eb4-b8a4-895cb12fc3ab)
 
-こちらから「A.I.VOICE2 Editor」を選択してみます。すると選択したソフトから出力されるVoiceDropのルールを生成することが出来ます。
+こちらから「A.I.VOICE2 Editor」を選択してみます。
+
+<br>
+
+すると選択したソフトから出力されるVoiceDropのルールを生成することが出来ます。
 
 ![VoiceDropルール設定](https://github.com/user-attachments/assets/12ac7bd2-84d4-49a9-90d2-4bd0f3eca550)
+
+<br>
 
 自分で好きなように編集し、右下の「ルールのエクスポート」を押します。
 
@@ -221,9 +246,13 @@ Voice Valet側には、このVoice Drop側で行う必要がある「ルール�
 
 すると、 `voice-drop-rules.json` が作成されます。
 
+<br>
+
 作成された `voice-drop-rules.json` をVoiceDrop側の「インポート」ボタンを押して、読み込ませます。
 
 ![VoiceDrop側のルールインポート](https://github.com/user-attachments/assets/223d882d-6438-43d2-a5b8-846d2e7df3f4)
+
+<br>
 
 すると、VoiceDrop側にルールが生成されます。
 
@@ -238,8 +267,6 @@ Voice Valet側には、このVoice Drop側で行う必要がある「ルール�
 ## その他細かい機能
 
 Voice Valetは音声合成ソフトxAviutl2で動画投稿を行っている方に対して、音声合成ソフトによる手間を削減し効率化を目的とした機能を提供しています。
-
-<br>
 
 ### ショートカットキーを変更したい
 
@@ -278,7 +305,9 @@ Voice Valetは音声合成ソフトxAviutl2で動画投稿を行っている方�
 
 その方の為に、「保存オプションのキャラクター毎にファイルを分けて保存」を用意しています。
 
-こちらをONにしてもらうと、キャラクター毎にファイルが作成されるようになります。また、もしファイルが分離してしまったり、ファイルで保存されなかった場合、下のテキストにある所にファイル名に必ず含まれているキャラクター名を入れて「追加」を押してもらえると、そのキャラクターでファイルが作成されるようになります。
+こちらをONにしてもらうと、キャラクター毎にファイルが作成されるようになります。
+
+また、もしファイルが分離してしまったり、ファイルで保存されなかった場合、下のテキストにある所にファイル名に必ず含まれているキャラクター名を入れて「追加」を押してもらえると、そのキャラクターでファイルが作成されるようになります。
 
 ![保存オプションのキャラクター毎にファイルを分けて保存](https://github.com/user-attachments/assets/fd474cc4-f1ed-4452-b16a-18debb0e245e)
 
