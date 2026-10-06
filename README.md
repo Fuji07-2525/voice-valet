@@ -46,13 +46,13 @@ Voice Valetの基本的な使い方の説明を行います。
 
 すると、最初にこのような画面が表示されると思います。
 
-<img width="785" height="528" alt="image" src="https://github.com/user-attachments/assets/2ad983e9-dafb-42b1-b7b1-425f61168d48" />
+![Voice Valet最初のページ](https://github.com/user-attachments/assets/2ad983e9-dafb-42b1-b7b1-425f61168d48) 
 
 このままだと使いにくいと思うので、プラグインを右クリックし、「ウィンドウ配置」→「ウィンドウ分離」を選択しておくと見やすい形で表示してくれます。
 
-<img width="577" height="464" alt="image" src="https://github.com/user-attachments/assets/3090410a-0e14-4e10-b9fe-2d3fb535a58b" />
+![ウィンドウ分離](https://github.com/user-attachments/assets/3090410a-0e14-4e10-b9fe-2d3fb535a58b)
 
-なおこのプラグインは閉じていても作動してくれます。そのため、基本的には非表示で設定をする際にのみ表示する。という運用が良いと思います。
+なお **このプラグインは閉じていても作動してくれます** そのため、基本的には非表示で設定をする際にのみ表示する。という運用が良いと思います。
 
 ## ショートカットキー機能
 
@@ -66,15 +66,17 @@ VoiceValetではそのようなストレスを解消するため、「音声再�
 
 まず最初に音声・テキストファイルの保存先フォルダ選択をします。
 
-<img width="623" height="462" alt="スクリーンショット 2026-10-05 230052" src="https://github.com/user-attachments/assets/5d2f9e3b-af38-44b6-a25e-c78d363849c7" />
+![保存先指定](https://github.com/user-attachments/assets/5d2f9e3b-af38-44b6-a25e-c78d363849c7)
 
 ここで選択するファイルは **このプラグイン経由で保存した音声やテキストをどのファイル配下に置くか** を決めます。
 
 例えば、`E:\Aviutl2\voice-valet` を選択しておくと、このプラグイン経由で音声・テキストを保存した際、そのファイルは選択されたフォルダ配下に溜まっていきます。
 
-<img width="1070" height="636" alt="image" src="https://github.com/user-attachments/assets/c3f6b729-a638-48a6-aa00-bfceb884c499" />
+![エクスプローラー](https://github.com/user-attachments/assets/c3f6b729-a638-48a6-aa00-bfceb884c499)
 
 自分のプロジェクトで音声合成ソフトから出力される音声ファイルたちを保存しているフォルダを指定してもらえればと思います。
+
+<br>
 
 ### 2.音声合成ソフトを開き、プラグイン経由で音声再生をしてみる
 
@@ -82,9 +84,11 @@ voicevoxを例で利用してみます。voicevoxを開いて適当にテキス�
 
 （voicevoxでなくても良いです。自分の環境にある音声合成ソフトで試してみてください）
 
-<img width="1184" height="677" alt="image" src="https://github.com/user-attachments/assets/39ee8427-2d08-4959-acd5-f8f88224886c" />
+![voicevox](https://github.com/user-attachments/assets/39ee8427-2d08-4959-acd5-f8f88224886c)
 
 テキスト入力が完了しましたら、その状態で、 `Ctrl+Shift+Space` を押してみてください。すると音声が再生されます。
+
+<br>
 
 ### 3.プラグイン経由で音声保存をしてみる
 
@@ -92,7 +96,7 @@ voicevoxを例で利用してみます。voicevoxを開いて適当にテキス�
 
 すると `yyyyMMddhhmmss_キャラクター名_テキスト` というファイル名で先ほど指定したフォルダ配下に音声とテキストが保存されます。
 
-<img width="738" height="241" alt="スクリーンショット 2026-10-06 002736" src="https://github.com/user-attachments/assets/946cbdbb-abb9-4cb8-8da9-ed7f10003680" />
+![ショートカットキーによる保存](https://github.com/user-attachments/assets/946cbdbb-abb9-4cb8-8da9-ed7f10003680)
 
 このようにショートカットを提供するのがこのプラグインの1つ目の機能になります。
 
@@ -100,36 +104,42 @@ voicevoxを例にしましたが、このプラグインでは各音声合成ソ
 
 同じショートカットキーで複数の音声合成ソフトの音声再生・音声保存を可能にするため、ソフトごとにショートカットキーを覚えるなどの面倒事を無くすことを目的とした機能になります。
 
-## Voice Valetの使い方（プリセット機能）
+<br>
+
+## プリセット機能
 
 もう一つのVoice Valetのメイン機能の紹介です。
 
-音声合成ソフトを利用した動画編集をしていて、「1日だけでは終わらず複数日に渡って同じプロジェクトの編集を行う」事があると思います。
+音声合成ソフトを利用した動画編集をしていて、1日だけでは終わらず複数日に渡って同じプロジェクトの編集を行う事があると思います。
 
 その際、また別の日にPCを立ち上げてAviutl2を開き、プロジェクトで利用する音声合成ソフトを開き、音声合成ソフト側でもプロジェクトを開く。といった面倒ではあるが避けては通れない作業が発生すると思います。
 
 そのような面倒事を解消するため、 **VoiceValetではプロジェクト毎にそのプロジェクトで利用する音声合成ソフトを「プリセット」として保存し、プロジェクトを立ち上げた際、自動で音声合成ソフトと各ソフトのプロジェクトファイルを開く事が可能です。**
 
+<br>
+
 例えば、こちらの編集中のプロジェクトがあったとします。
 
-<img width="1870" height="1000" alt="image" src="https://github.com/user-attachments/assets/4d1919ee-a9f6-4176-8fc1-0397965aeef0" />
+![編集中のプロジェクト](https://github.com/user-attachments/assets/4d1919ee-a9f6-4176-8fc1-0397965aeef0)
 
 1. Aviutl2で、`test.aux2` というプロジェクトの編集中です
 2. このプロジェクトでは「Voicevox」「AIVoice2」を利用しています
 3. Voicevoxは `voice_valet_voicevox.vvproj` というプロジェクトファイルを開いてます
 4. AIVoice2は、`voice_valet_AIVoice.aieprojx` というプロジェクトファイルを開いています
 
-### 1.プロジェクトで必要な状態を次開いた時にも同じ状態にするために「プリセット」として保存する
+<br>
 
-この状態で編集を行って、明日また同じように編集を進めたい時があるかもしれません。その時、Aviutl2のプロジェクトを開いて、各音声合成ソフトを立ち上げてプロジェクトを開くのは面倒だと思います。
+### 1. 次開いた時にも同じ状態にするために「プリセット」として保存する
 
-現在のAviutl2のプロジェクトファイルと各ソフトを開いた状態で、右上の「設定」ボタンを押します。
+また編集を始める際、直ぐに同じ状態に出来るように「プリセット」として現在の状態を保存しようと思います。
 
-<img width="600" height="432" alt="スクリーンショット 2026-10-05 232219" src="https://github.com/user-attachments/assets/4daf6fc9-3541-4f25-b2d0-a7248baba356" />
+「プリセット」として保存するために、現在のAviutl2のプロジェクトファイルと各ソフトを開いた状態で、右上の「設定」ボタンを押します。
+
+![設定ボタンを押す](https://github.com/user-attachments/assets/4daf6fc9-3541-4f25-b2d0-a7248baba356)
 
 「プリセット」タブを開き、「現在の状態をプリセットとして保存」を押します。
 
-<img width="604" height="429" alt="665762026-4f179e1e-a0bc-4db8-ab86-a27750acad6d" src="https://github.com/user-attachments/assets/79001ea4-286f-4b10-8a9e-3782d7e2a425" />
+![現在の状態をプリセットとして保存](https://github.com/user-attachments/assets/79001ea4-286f-4b10-8a9e-3782d7e2a425)
 
 
 すると
@@ -140,71 +150,96 @@ voicevoxを例にしましたが、このプラグインでは各音声合成ソ
 
 を自動取得しプリセットとして出してくれます。
 
-<img width="606" height="596" alt="image" src="https://github.com/user-attachments/assets/47235e30-f91f-4a61-bc19-5cda08f7bbb3" />
+![自動取得](https://github.com/user-attachments/assets/47235e30-f91f-4a61-bc19-5cda08f7bbb3)
 
 このまま「保存」を押して頂くと現在のプロジェクト状態をプリセットとして保存することが出来ます。
 
-<img width="605" height="592" alt="image" src="https://github.com/user-attachments/assets/09e4606d-2f35-445f-ad1f-31c8034aa739" />
+![プリセット保存](https://github.com/user-attachments/assets/6ca8f67e-2253-429c-a37a-deaa267583b8)
 
-その後、一度各音声合成ソフトとAviutl2を閉じます。
+![プリセット一覧](https://github.com/user-attachments/assets/866733c4-bf1a-4e7e-accc-c3793ee69e55)
+
+これでプリセットとして保存が完了しました。
+
+### 2. プリセットを適用させる
+
+プリセットを保存したら、一度各音声合成ソフトとAviutl2を閉じます。
 
 閉じた後、Aviutl2を再び開き、同じプロジェクトファイルを開きます。
 
-<img width="777" height="536" alt="image" src="https://github.com/user-attachments/assets/ec9f8426-6a27-42a8-b9cd-08d2aa9472d5" />
+![プロジェクトファイルを開く](https://github.com/user-attachments/assets/ec9f8426-6a27-42a8-b9cd-08d2aa9472d5)
 
 するとこのようなダイアログが表示されます。
 
-<img width="393" height="243" alt="image" src="https://github.com/user-attachments/assets/26bce9f9-8dc5-408b-a961-de76fd0ec0da" />
+![ダイアログ表示](https://github.com/user-attachments/assets/26bce9f9-8dc5-408b-a961-de76fd0ec0da)
 
-こちらをOKを押すと、先ほどプリセットとして保存した音声合成ソフトが起動し、Aviutl2のプロジェクトを開くだけで、そのプロジェクトで利用しているソフトとプロジェクトを自動で開いてくれるようになります。
+こちらをOKを押します。
 
-<img width="1872" height="1002" alt="image" src="https://github.com/user-attachments/assets/64817303-6a20-4eec-9c92-be0fc4a42d38" />
+![プリセット適用](https://github.com/user-attachments/assets/64817303-6a20-4eec-9c92-be0fc4a42d38)
 
-主に、数日かけて編集する方が最初の起動の楽をするための機能です。
+すると、先ほどプリセットとして保存した音声合成ソフトが起動し、Aviutl2のプロジェクトを開くだけで、そのプロジェクトで利用しているソフトとプロジェクトを自動で開いてくれるようになります。
 
-1つの動画を複数日をかけて編集する方は是非プリセットとして保存し、利用して頂ければと思います。
+こちらがVoice Valetの「プリセット」機能になります。
+
+<br>
 
 ## Voice Dropとの連携
 
 音声合成ソフトから出力された音声とテキストをAviutl2に自動でドロップするプラグイン「Voice Drop」があります。
 
-本プラグインとVoice Dropを利用すると、ショートカットによる音声とテキスト保存～Aviutl2に自動ドロップまでを行うことが出来ます。
+本プラグインであるVoice Valet と Voice Drop のどちらも利用すると、ショートカットによる音声とテキスト保存 ～ Aviutl2に自動ドロップ までを行うことが出来ます。
 
-Voice Drop側では度のレイヤーにドロップさせるかなどのルールの設定を行う必要があります。
+- 音声合成ソフト→エクスプローラーに保存のサポート はVoiceValetが行う。
+- エクスプローラー→Aviutl2にドロップ はVoiceDropが行う。
 
-そのルール設定の手間を削減することを目的として、Voice Dropというタブを用意しています。
+の2つのプラグインの役割をそれぞれ使うことで、ショートカットによる音声とテキスト保存 ～ Aviutl2に自動ドロップ までを行うアプローチ方法になります。
 
-「設定」→「VoiceDrop」を選択します。
+↓各プラグインの役割のイメージです。
 
-<img width="609" height="598" alt="image" src="https://github.com/user-attachments/assets/b65315f5-4d2a-4566-9940-967a25be7963" />
+![各プラグインの役割](https://github.com/user-attachments/assets/a5a65b57-926d-4c14-8032-15182c94af52)
+
+### 1. Voice Dropのルール設定
+
+このような使い方をする場合、Voice Drop側で「ルール設定」を行う必要があります。
+
+Voice Valet側には、このVoice Drop側で行う必要がある「ルール設定」の簡略化を目的とした機能を用意しています。
+
+「設定」→「Voice Drop」を選択します。
+
+![Voice Dropタブ](https://github.com/user-attachments/assets/b65315f5-4d2a-4566-9940-967a25be7963)
 
 「起動中のソフトから読み込む」を押します。すると現在立ち上げている音声合成ソフトを選択することが出来ます。
 
-<img width="601" height="345" alt="image" src="https://github.com/user-attachments/assets/12a55d8f-38be-4eb4-b8a4-895cb12fc3ab" />
+![起動中のソフトから読み込む](https://github.com/user-attachments/assets/12a55d8f-38be-4eb4-b8a4-895cb12fc3ab)
 
 こちらから「A.I.VOICE2 Editor」を選択してみます。すると選択したソフトから出力されるVoiceDropのルールを生成することが出来ます。
 
-<img width="605" height="607" alt="image" src="https://github.com/user-attachments/assets/12ac7bd2-84d4-49a9-90d2-4bd0f3eca550" />
+![VoiceDropルール設定](https://github.com/user-attachments/assets/12ac7bd2-84d4-49a9-90d2-4bd0f3eca550)
 
 自分で好きなように編集し、右下の「ルールのエクスポート」を押します。
 
-<img width="599" height="411" alt="image" src="https://github.com/user-attachments/assets/d0dc1334-ac05-4fa4-b565-f6a4d64199e9" />
+![ルールのエクスポート](https://github.com/user-attachments/assets/d0dc1334-ac05-4fa4-b565-f6a4d64199e9)
 
 すると、 `voice-drop-rules.json` が作成されます。
 
-こちらのファイルをVoiceDrop側の「インポート」ボタンを押して、読み込ませます。
+作成された `voice-drop-rules.json` をVoiceDrop側の「インポート」ボタンを押して、読み込ませます。
 
-<img width="478" height="439" alt="スクリーンショット 2026-10-05 235314" src="https://github.com/user-attachments/assets/223d882d-6438-43d2-a5b8-846d2e7df3f4" />
+![VoiceDrop側のルールインポート](https://github.com/user-attachments/assets/223d882d-6438-43d2-a5b8-846d2e7df3f4)
 
 すると、VoiceDrop側にルールが生成されます。
 
-<img width="553" height="398" alt="スクリーンショット 2026-10-05 235450" src="https://github.com/user-attachments/assets/c62a3573-5993-4c46-975c-78cc4a156f28" />
+![VoiceDrop側のルール一覧](https://github.com/user-attachments/assets/c62a3573-5993-4c46-975c-78cc4a156f28)
 
-これでVoiceDrop側のルール設定が完了します。あとは、ショートカットキーを利用したVoice Valet経由で音声を保存した際、Voice Dropがルールに反応し、Aviutl2にドロップされるようになります。
+これでVoiceDrop側のルール設定が完了します。
+
+あとは、ショートカットキーを利用したVoice Valet経由で音声を保存した際、Voice Dropがルールに反応し、Aviutl2にドロップされるようになります。
+
+<br>
 
 ## その他細かい機能
 
 Voice Valetは音声合成ソフトxAviutl2で動画投稿を行っている方に対して、音声合成ソフトによる手間を削減し効率化を目的とした機能を提供しています。
+
+<br>
 
 ### ショートカットキーを変更したい
 
@@ -217,9 +252,11 @@ Voice Valetは音声合成ソフトxAviutl2で動画投稿を行っている方�
 
 その方の為に、設定タブに「ホットキー」という欄を用意しています。こちらの設定ボタンを押して頂くと自由に設定することが可能です。
 
-<img width="608" height="410" alt="スクリーンショット 2026-10-05 235714" src="https://github.com/user-attachments/assets/e201b5b7-a23f-4a5b-b360-c965c16ec16f" />
+![ショートカットキー再生](https://github.com/user-attachments/assets/e201b5b7-a23f-4a5b-b360-c965c16ec16f)
 
-<img width="607" height="412" alt="image" src="https://github.com/user-attachments/assets/8cfcaf8e-66b7-4380-a485-38315cd97e53" />
+![ショートカットキー保存](https://github.com/user-attachments/assets/8cfcaf8e-66b7-4380-a485-38315cd97e53)
+
+<br>
 
 ### 保存ファイル名は各ソフトが決めた保存名にしたい
 
@@ -229,7 +266,7 @@ Voice Valetは音声合成ソフトxAviutl2で動画投稿を行っている方�
 
 その方のために、「ファイル名形式」という欄を用意しています。
 
-<img width="603" height="450" alt="スクリーンショット 2026-10-06 000314" src="https://github.com/user-attachments/assets/416b1576-7436-452b-a035-a33f3f5d6699" />
+![ファイル名形式](https://github.com/user-attachments/assets/416b1576-7436-452b-a035-a33f3f5d6699)
 
 こちらの「このファイル名で保存するソフト」の欄にチェックマークを用意しています。こちらのチェックマークをOFFにしてもらうと、ソフト側の音声保存のルールで音声保存がされるようになります。
 
@@ -243,7 +280,7 @@ Voice Valetは音声合成ソフトxAviutl2で動画投稿を行っている方�
 
 こちらをONにしてもらうと、キャラクター毎にファイルが作成されるようになります。また、もしファイルが分離してしまったり、ファイルで保存されなかった場合、下のテキストにある所にファイル名に必ず含まれているキャラクター名を入れて「追加」を押してもらえると、そのキャラクターでファイルが作成されるようになります。
 
-<img width="600" height="498" alt="image" src="https://github.com/user-attachments/assets/fd474cc4-f1ed-4452-b16a-18debb0e245e" />
+![保存オプションのキャラクター毎にファイルを分けて保存](https://github.com/user-attachments/assets/fd474cc4-f1ed-4452-b16a-18debb0e245e)
 
 ---
 
@@ -253,7 +290,7 @@ Voice Drop も導入されている方で、VoiceValetから出力される音�
 
 その方の為に、「保存先設定」を用意しています。こちらを「Voice Dropの選択中フォルダと連動する」を押して頂くとVoice Drop側で選択されているフォルダを参照し常に連動してくれるようになります。
 
-<img width="602" height="504" alt="スクリーンショット 2026-10-06 001026" src="https://github.com/user-attachments/assets/9d6f9268-6d02-431a-8282-f243d41c3752" />
+![VoiceDropと連携](https://github.com/user-attachments/assets/9d6f9268-6d02-431a-8282-f243d41c3752)
 
 ---
 
