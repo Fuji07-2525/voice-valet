@@ -23,16 +23,6 @@ Aviutl2カタログで「Voice Valet」と検索して頂き、インストー�
 2. AviUtl2 の Plugin フォルダ（例: `C:\ProgramData\aviutl2\Plugin`）に入れる
 3. AviUtl2 を起動し直す
 
-## 主な機能
-
-Voice Valetでは次の機能を提供しています。
-
-1. 🎙 ボタン1つで音声保存
-2. ⌨️ ショートカットキーで保存・再生
-3. 📁 ファイル名と保存先をきれいに整理
-4. 🗂 プリセット（作品ごとの作業環境をまとめて切り替え）
-5. 🔗 Voice Drop のルールを自動で作成
-
 ## 対応ソフト
 - VOICEROID2 Editor
 - A.I.VOICE Editor
