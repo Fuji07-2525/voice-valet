@@ -34,18 +34,15 @@ Voice Valetでは次の機能を提供しています。
 5. 🔗 Voice Drop のルールを自動で作成
 
 ## 対応ソフト
-
-| ソフト | 音声保存 | 音声再生 | キャラクター読み込み（VoiceDrop タブ） |
-|---|:---:|:---:|:---:|
-| VOICEROID2 Editor | ✅ | ✅ | ✅ |
-| A.I.VOICE Editor | ✅ | ✅ | − |
-| A.I.VOICE2 Editor | ✅ | ✅ | ✅ |
-| VOICEPEAK | ✅ | ✅ | ✅ |
-| VoiSona Talk Editor | ✅ | ✅ | ✅ |
-| CeVIO AI | ✅ | ✅ | ✅ |
-| CeVIO CS（Creative Studio） | ✅ | ✅ | ✅ |
-| VOICEVOX | ✅ | ✅ | ✅ |
-| COEIROINK v2 | ✅ | ✅ | ✅ |
+- VOICEROID2 Editor
+- A.I.VOICE Editor
+- A.I.VOICE2 Editor
+- VOICEPEAK
+- VoiSona Talk Editor
+- CeVIO AI
+- CeVIO CS（Creative Studio）
+- VOICEVOX
+- COEIROINK v2
 
 このプラグインでは次の音声合成ソフトに対応しております。また、今後新しい音声合成ソフトが追加され次第対応していく予定です。
 
