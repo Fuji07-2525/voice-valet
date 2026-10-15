@@ -42,7 +42,9 @@ Aviutl2カタログで「Voice Valet」と検索して頂き、インストー�
 
 ## 動画でもご紹介
 
-[現在作成中です。近日公開します]
+こちらの動画でご紹介してます。
+
+[https://www.nicovideo.jp/watch/sm46918802](https://www.nicovideo.jp/watch/sm46918802)
 
 
 # Voice Valet の使い方
